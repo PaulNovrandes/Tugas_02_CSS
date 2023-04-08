@@ -1,0 +1,28 @@
+h1 {
+  text-transform: capitalize;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.p_pertama {
+  text-align: justify;
+}
+
+.p_kedua {
+  text-decoration: underline;
+}
+
+* { /*universal selector adalah tanda "*" */
+  color: white;
+  background-color: green;
+}
+.p_ketiga, .p_keempat {
+  text-align: center;
+}
+
+p.p_kelima { /*untuk spesifik selektor tidak boleh menggunakan
+              spasi dalam penulisannya agar terbaca*/
+  text-decoration: line-through;
+}
